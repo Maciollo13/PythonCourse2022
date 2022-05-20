@@ -1,5 +1,5 @@
-tuple = (2.0 , 3.0 , 6.6 , 7.8)
+tuple = (2 , 3 , 6 , 7)
 user = float(input("Podaj liczbę całkowitą: "))
-for i in tuple:
-    if user == i:
-        print("znajduje sie")
+for i , v in enumerate(tuple):
+    if user == v:
+        print("znajduje sie na miejscu ", i)
