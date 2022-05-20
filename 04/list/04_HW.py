@@ -1,3 +1,4 @@
+
 tab1 = []
 n = int(input("Podaj parzystą ilośc elementow: "))
 mid1 = int(n/2)
