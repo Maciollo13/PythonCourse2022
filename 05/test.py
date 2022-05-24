@@ -1,9 +1,7 @@
-
-comp = 20
-player = 15
-ran = comp - 10
-ran1 = comp + 10
-for i in range(ran,ran1):
-    if player == i:
-        print("yes")
-
+d1 = {
+    "Marka": "Toyota",
+    "Model": "Avensis",
+    "Rocznik": 1999
+}
+d2 = d1.items()
+print(d2)
