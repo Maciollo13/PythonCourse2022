@@ -2,22 +2,24 @@
 # wypełnioną wynikami mnożenia wiersz × kolumna.
 n = 0
 a = 1
-b = 1
 list1 = []
 my_list = []
-#my_list.extend((range(1,11)))
-tab = [my_list]* 10
-for i, v  in enumerate(tab):
-    v = my_list
+tab = []
+while n < 10:
+    for i in range(1,11):
+        my_list.append(i*a)
+
+    my_list = [my_list]
+    tab.append(my_list)
+
+    my_list.clear()
+    n += 1
+    a += 1
 
 
 
-print(my_list)
 print(tab)
 
 
-
-
-#for i , v in enumerate(tab):
 
 
