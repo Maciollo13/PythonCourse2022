@@ -1,7 +1,6 @@
-d1 = {
-    "Marka": "Toyota",
-    "Model": "Avensis",
-    "Rocznik": 1999
-}
-d2 = d1.items()
-print(d2)
+l1 = ["e", "o"]
+l2= ["e", "o"]
+if l1 == l2:
+    print("hahah")
+else:
+    print("ta")
