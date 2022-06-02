@@ -1,6 +1,6 @@
-l1 = ["e", "o"]
-l2= ["e", "o"]
-if l1 == l2:
-    print("hahah")
-else:
-    print("ta")
+def board_true_check(row, column, board):
+    if board[row][column] == "." or board[row][column] == "X" or board[row][column] == "O":
+        return False
+    else:
+        return True
+
