@@ -12,9 +12,15 @@ class Queue:
         return self.queue.append(customer)
 
     def queue_get(self):
-        return self.queue.pop[0]
+        return self.queue.pop(0)
 
 
 def main():
     l1 = Queue(["a", "b", "c", "d"])
-    l1.show_queue(l1)
+    l1.show_queue()
+    l1.queue_get()
+    l1.queue_get()
+    l1.queue_get()
+    l1.queue_get()
+    print(l1.queue_length_check())
+main()

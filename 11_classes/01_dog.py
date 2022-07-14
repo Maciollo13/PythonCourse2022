@@ -5,10 +5,10 @@ class pies:
         self.race = race
 
     def how(self):
-        print(f"{self.name} - How How")
+        return f"{self.name} - How How"
 
     def tail_whip(self):
-        print(f"{self.name} whips his tail")
+        return f"{self.name} whips his tail"
 
 
 tuptus = pies("Tuptuś", "black", "Jamnik")
