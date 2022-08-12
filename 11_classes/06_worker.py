@@ -27,6 +27,10 @@ class worker:
             self.payroll += 200
         return self.payroll
 
+    def email(self):
+        return f"{self.name}.{self.last}@lumos.eu"
+
 ania = worker("ania","abrams",2000,2,True)
 print(ania.payroll_taxed())
 print(ania.payroll_raise())
+print(ania.email())
