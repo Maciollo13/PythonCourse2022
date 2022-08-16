@@ -4,7 +4,7 @@ import pytz
 
 
 class Watch:
-    def __init__(self, name,time_zone):
+    def __init__(self, name, time_zone):
         self.time_zone = time_zone
         self.name = name
         self.time = datetime.datetime.now()

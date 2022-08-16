@@ -20,7 +20,7 @@ class Triangle_test(unittest.TestCase):
         self.sideB = 6
 
     def test_triangle_with_correct_values(self):
-        self.assertEqual(triangle(self.sideA,self.sideB),15)
+        self.assertEqual(triangle(self.sideA, self.sideB), 15)
 
     def tearDown(self):
         del self.sideB
